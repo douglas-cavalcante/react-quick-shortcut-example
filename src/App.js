@@ -63,7 +63,7 @@ function App() {
   return (
     <div className="container mt-2">
       <Quick hotkey="F2" action={() => handleRedirectNew()} />
-      <Quick hotkey="F3" action={() => handleRedirectEdit()} />
+      <Quick hotkey="F7" action={() => handleRedirectEdit()} />
       <Quick hotkey="F4" action={() => handleDelete()} />
       {selectedItem}
       <Table
